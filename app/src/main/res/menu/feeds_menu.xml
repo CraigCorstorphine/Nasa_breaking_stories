@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuBreaking"
+        android:title="Breaking News" />
+    <item
+        android:id="@+id/mnuEdu"
+        android:title="Education News" />
+    <item
+        android:id="@+id/mnuSpaceStation"
+        android:title="ISS News" />
+    <group
+        android:id="@+id/mnugrpLimit"
+        android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/mnu10"-->
+<!--            android:checked="true"-->
+<!--            android:title="Top 10" />-->
+<!--        <item-->
+<!--            android:id="@+id/mnu20"-->
+<!--            android:title="Top 20" />-->
+    </group>
+</menu>
